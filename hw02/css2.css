@@ -1,0 +1,27 @@
+* {
+    margin:0 ;
+    padding:0 ;
+    list-style:none;
+
+  }
+  
+  h1 {
+    position: relative;
+    text-align:center;
+  
+  }
+  .table{
+    display:grid;
+    grid-template-columns: repeat(9, 1fr);
+    position: relative;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 5px;
+    z-index: 1;
+  }
+  li{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    
+  }
